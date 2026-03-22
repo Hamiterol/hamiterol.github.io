@@ -1,0 +1,25 @@
+# Tüm botlar için genel kurallar
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Yapay Zeka (AI) Botları İçin Özel İzinler (GEO Optimizasyonu)
+# ChatGPT'nin tarayıcısı
+User-agent: GPTBot
+Allow: /
+
+# OpenAI'ın arama motoru botu
+User-agent: OAI-SearchBot
+Allow: /
+
+# Perplexity AI botu
+User-agent: PerplexityBot
+Allow: /
+
+# Common Crawl (Birçok AI modelinin eğitim verisi)
+User-agent: CCBot
+Allow: /
+
+# Site Haritası (Sitemap) Yolu
+Sitemap: https://siteniz.com/sitemap.xml
